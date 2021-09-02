@@ -1,0 +1,119 @@
+.container {
+  display: block;
+  justify-content: center;
+  margin: auto;
+  padding-top: 2em;
+}
+#formulaire{
+  width: 60%;
+  margin: auto;
+}
+#formulaire div{
+  width: 50%;
+  margin: auto;
+}
+#formulaire h1{
+  text-align: center;
+  justify-content: center;
+}
+.display-1{
+  display: inline;
+  justify-content: center;
+  
+}
+.jumbotron{
+  display: block;
+  justify-content: center;
+  padding: 2em;
+}
+
+.card1{
+  grid-column: 1;
+}
+.card2{
+  grid-column: 3;
+}
+#formulaire input{
+  text-align: center;
+  margin: auto;
+}
+#avatar{
+  margin: auto;
+}
+#tableau{
+  border-color: black;
+}
+#footer{
+  margin-top: 10em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+  position: sticky
+  
+}
+#background{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  background:url("../../public/img/lunch2.jpg");
+}
+#title{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-color: rgba(255,255,255, 0.6);
+  margin: auto;
+  justify-self: center;
+  width: 100%;
+  padding-bottom:0.5em ;
+  padding-top: 0.5em;
+}
+#background h1, #background em{
+  color: black; 
+}
+#title h1{
+  font-size: 4em;
+}
+#title em{
+  font-weight: bold;
+}
+#com{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3em;
+}
+#alert{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.container h1{
+  font-size: 5em;
+}
+@media (max-width:1000px){
+  .container h1{
+    font-size:3em;
+  }
+}
+@media (max-width:550px){
+  .container h1{
+    font-size:2em;
+  }
+}
+@media (max-width:400px){
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+#go{
+  color: aliceblue;
+  border-color: aliceblue;
+}
+@media (max-width:930px){
+nav #navbarCollapse input{
+width: 170px;
+}
+}
